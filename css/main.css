@@ -4,16 +4,16 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #e0003b;
+  background-color: #294368;
   color: #fff;
 }
 
 ::selection {
-  background-color: #e0003b;
+  background-color: #294368;
   color: #fff;
 }
 
@@ -1919,7 +1919,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #e0003b;
+  color: #294368;
 }
 
 .white-menubar .menu-bar span {
@@ -1935,7 +1935,7 @@ nav a:hover {
 }
 
 .dup-body {
-  background: #e0003b;
+  background: #294368;
 }
 
 .dup-body-wrap {
@@ -1978,7 +1978,7 @@ nav a:hover {
   padding-right: 60px;
   border-radius: 25px;
   background: transparent;
-  border: 1px solid #e0003b;
+  border: 1px solid #294368;
   color: #222222;
   display: inline-block;
   font-weight: 500;
@@ -2009,7 +2009,7 @@ nav a:hover {
 }
 
 .primary-btn:hover {
-  background: #e0003b;
+  background: #294368;
   color: #fff;
 }
 
@@ -2029,11 +2029,11 @@ nav a:hover {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #e0003b;
+  color: #294368;
 }
 
 .primary-btn.white:hover span {
-  color: #e0003b;
+  color: #294368;
 }
 
 .banner-area {
@@ -2093,7 +2093,7 @@ nav a:hover {
 }
 
 .generic-banner.element-banner {
-  background: #e0003b;
+  background: #294368;
 }
 
 .generic-banner .height {
@@ -2244,7 +2244,7 @@ nav a:hover {
 }
 
 .achivement-area .single-achivement:hover .achivement-link {
-  background: #e0003b;
+  background: #294368;
 }
 
 .achivement-area .single-achivement:hover .achivement-link i {
@@ -2291,7 +2291,7 @@ nav a:hover {
 }
 
 .single-progressbar .progress-bar {
-  background: #e0003b;
+  background: #294368;
   height: 5px;
   line-height: 5px;
 }
@@ -2423,7 +2423,7 @@ nav a:hover {
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
-  background: #e0003b;
+  background: #294368;
   color: #fff;
 }
 
@@ -2564,7 +2564,7 @@ nav a:hover {
 }
 
 .footer-social a:hover i {
-  color: #e0003b;
+  color: #294368;
 }
 
 .about-generic-area {
