@@ -751,7 +751,7 @@ td, th {
 }
 
 b, i, sup, sub, u, del {
-  color: #df003a;
+  color: #294368;
 }
 
 h1 {
@@ -2096,10 +2096,24 @@ nav a:hover {
   background: #294368;
 }
 
-.generic-banner .height {
-  height: 550px;
+.title{
+	font-weight: 300;
+	color: #294368;
+	font-size: 36px;
+	letter-spacing: 2px;
 }
 
+.title-box{
+	text-align: center;
+	padding: 100px 0 50px;
+	text-transform: uppercase;
+}
+
+.instructor-section {
+    height: auto;
+    font-size: 18px;
+    padding: 100px 0;
+}
 @media (max-width: 767px) {
   .generic-banner .height {
     height: 400px;
@@ -2130,11 +2144,12 @@ nav a:hover {
 
 .studio-area {
   position: relative;
-  background: url(../img/studio-bg.jpg) no-repeat center center/cover;
+  background: rgb(41, 67, 104, 1);
+  background: url(../img_new/iugm.jpg) no-repeat center center/cover;
 }
 
 .studio-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: rgb(41, 67, 104, 0.8);
 }
 
 .studio-area .studio-thumb {
@@ -2253,11 +2268,11 @@ nav a:hover {
 
 .video-area {
   position: relative;
-  background: url(../img/video-area-bg.jpg) no-repeat center center/cover;
+  background: url(../img_new/fig_orban2016.png) no-repeat center center/cover;
 }
 
 .video-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: rgb(41, 67, 104, 0.8);
 }
 
 .video-area .video-content {
@@ -2604,4 +2619,16 @@ nav a:hover {
 
 .switch-wrap p {
   margin: 0;
+}
+
+/*======================================================================
+##		Partner Section
+=======================================================================*/
+.partner .section-bg{
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.partner .title{
+	color: #111;
 }
