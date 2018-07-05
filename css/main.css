@@ -2107,6 +2107,8 @@ nav a:hover {
 	text-align: center;
 	padding: 100px 0 50px;
 	text-transform: uppercase;
+  background-image: url('../img_new/banner.jpg');
+  background-size: cover;
 }
 
 .instructor-section {
@@ -2631,4 +2633,40 @@ nav a:hover {
 }
 .partner .title{
 	color: #111;
+}
+
+.incline-div{
+	position: absolute;
+	top: 3px;
+	left: 0;
+	border-top: 60px solid #294368;
+	border-right: 60px solid transparent;
+	margin-left: -15px;
+	width: 250px;
+	z-index: 1;
+}
+
+.classic-title{
+	margin-top: 100px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.outer-stiker{
+	display: inline-block;
+	color: #474747;
+  margin-left: 50px;
+}
+.stiker{
+	display: inline-block;
+}
+.inner-stiker{
+	color: #fff;
+	padding-right: 50px;
+}
+.outer-stiker, .inner-stiker{
+	font-weight: 300;
+	z-index: 2;
+	position: relative;
 }

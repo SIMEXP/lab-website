@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="favicon.png">
+	<!-- Author Meta -->
+	<meta name="author" content="SIMEXP-lab">
+	<!-- Meta Description -->
+	<meta name="description" content="Website of the laboratory for brain simulation and exploration">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="brain, connectivity, neuroimaging">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>SIMEXP</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="css/linearicons.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body class="dup-body">
+		<div class="dup-body-wrap">
+			<!-- Start Header Area -->
+			<header class="default-header">
+				<div class="header-wrap">
+					<div class="header-top d-flex justify-content-between align-items-center">
+						<div class="logo">
+							<a href="index.html"><img src="logo.png" alt=""></a>
+						</div>
+						<div class="main-menubar d-flex align-items-center">
+							<nav class="hide">
+								<a href="index.html">Home</a>
+								<a href="team.html">Team</a>
+								<a href="projects.html">Projects</a>
+								<a href="news.html">News</a>
+							</nav>
+							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+						</div>
+					</div>
+				</div>
+			</header>
+		<!-- End Header Area -->
+
+		<!-- Blog Section -->
+		<section id="news" class="generic-banner relative">
+			<div class="container instructor-section">
+				<div class="col-md-12">
+					<div class="title-box">
+						<h1 class="title">Projects</h2>
+					</div>
+				</div>
+
+				<!--- Alzheimer's disease --->
+				<div class="col-sm-12">
+						<div class="classic-title">
+								<div class="stiker">
+										<h3 class="inner-stiker">Application</h3>
+								</div>
+								<h3 class="outer-stiker">Alzheimer's disease, subtypes and robust biomarkers</h3>
+								<div class="incline-div"></div>
+						</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<img class="center" src="img_new/fig_ad_multimodal.jpg" alt="data science" style="margin:30px 0px" width="100%">
+					</div>
+					<div class="col-sm-6">
+							<p style="margin:30px 0px;" class="p-large">
+								Since its creation in 2011, SIMEXP has had a strong focus on clinical applications, and in particular on using rs-fMRI as a diagnostic tool for Alzheimer's disease. We first investigated the test-retest reliability of resting-state fMRI connectivity in elderly subjects at familial risk of AD (Orban et al., Scientific Data 2015) and used Monte-Carlo simulations to assess the impact of site effects on the comparison of clinical groups  (Dansereau et al., Neuroimage 2017).
+							</p>
+
+							<p style="margin:30px 0px;" class="p-large">
+								We then worked on identifying functional measures that would be good targets for AD biomarkers. We first implemented a systematic meta-analysis on cross-sectional differences between AD patients, patients with mild cognitive impairment (MCI) and cognitively normal elderly, using published literature (Badhwar et al., Alzheimer’s and dementia, 2017), as well as retrospective data pooling (Tam et al., Frontiers in Aging Neuroscience, 2015).
+							</p>
+						</div>
+
+						<div class="col-sm-12">
+							<p style="margin:30px 0px;" class="p-large">
+								In the Tam et al. (2015) experiment, the heterogeneity in patterns of functional connectivity across sites was striking. We then looked at subtypes of functional networks and their association with clinical symptoms in patients with AD or MCI, as well as beta amyloid deposition in elderly subjects at familial risk of AD (Orban et al., biorxiv 2017). We then  successfully tested the idea of identifying a subgroup of people with homogeneous multimodal brain signature, that put them highly at risk of progressing to dementia within 3 years, using machine learning models (Dansereau et al., biorxiv 2018). We validated further this idea on a large data sample, using only structural imaging and cognitive evaluation (Tam et al., 2018). As part of our work with the biomarkers team of the Canadian Consortium on Neurodegeneration in Aging (http://ccna-ccnv.ca/en/), Dr Badhwar is going to implement this approach using extensive multimodal markers on a large heterogeneous cohort recruited across Canada (N=1600) with a variety of different types of dementia.
+
+							</p>
+					</div>
+				</div>
+
+				<!--- Parcellation --->
+				<div class="col-sm-12">
+						<div class="classic-title">
+								<div class="stiker">
+										<h3 class="inner-stiker">Algorithms</h3>
+								</div>
+								<h3 class="outer-stiker">Functional brain parcellation</h3>
+								<div class="incline-div"></div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-4">
+							<img class="center" src="img_new/urchs_hierarchy.jpg" alt="data science" style="margin:30px 0px" width="100%">
+						</div>
+						<div class="col-sm-8">
+								<p style="margin:30px 0px;" class="p-large">
+									An early interest of Dr Bellec was functional brain parcellation: finding "modules" in the brain that are more strongly functionally connected within themselves than across modules. These contributions included a <b><a href="https://ncbi.nlm.nih.gov/pubmed/16246590">two-stage algorithm</a></b> to work first on regions before moving to full-brain networks, as well as a bootstrap analysis of the stability of clusters (<b><a href="https://ncbi.nlm.nih.gov/pubmed/20226257">BASC</a></b>), both for individual or group-level parcellations.
+								</p>
+								<p style="margin:30px 0px;" class="p-large">
+									Since then, Tam and colleagues used BASC to generate a new <b><a href="https://ncbi.nlm.nih.gov/pmc/articles/PMC5128734/functional"> parcellation template</a></b> specifically adapted to older subjects, and individuals with mild cognitive impairment. Urchs and colleagues also generated the <b><a href="https://mniopenresearch.org/articles/1-3/v1"> MIST functional template</a></b>, which used multiple resolutions. This means that the brain is decomposed with various levels of details: from distributed networks, down to subnetworks and regions. Sebastian took great care in labelling those parcels in a consistent way across resolutions.
+								</p>
+								<p style="margin:30px 0px;" class="p-large">
+									Finally, Amal Boukhdir's PhD work is looking to extend the BASC framework to make it more scalable, working at the voxel resolution for very long fMRI time series. She is also exploring how the brain dynamically reorganizes its modular structure over time, rather than extracting a singe individual parcellation for each subject.
+								</p>
+
+						</div>
+				</div>
+
+				<!--- Task and parcellations --->
+				<div class="col-sm-12">
+						<div class="classic-title">
+								<div class="stiker">
+										<h3 class="inner-stiker">Algorithms</h3>
+								</div>
+								<h3 class="outer-stiker">Tasks, cognitive states and brain connectivity</h3>
+								<div class="incline-div"></div>
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-4">
+								<p style="margin:30px 0px;" class="p-large">
+									In 2015, Orban and colleagues <b><a href="https://ncbi.nlm.nih.gov/pubmed/24729172">showed</a></b> that the response to a simple motor task was enough to parcellate the whole brain into a hierarchy of task-related networks. This hierarchy was largely driven by a gradient of involvement in the preparation relative to the execution of the movement. This paper demonstrated the richness of task activity captured by fMRI, and how even coarse parcellation can discriminate subtle differences in brain dynamics. As part of her post-doctoral project, Dr Yu Zhang now tries to leverage this property using deep artificial networks based on recurrent graph convolution, to predict individual variations in cognitive states from fMRI dynamics. This work is laying the grounds for the Courtois NeuroMod project, which will use extensive fMRI and MEG data to help train large recurrent artificial neural networks on a variety of tasks.
+								</p>
+						</div>
+						<div class="col-sm-8">
+							<img class="center" src="img_new/fig_fir.jpg" alt="data science" style="margin:30px 0px" width="100%">
+						</div>
+				</div>
+
+				<!--- Software --->
+				<div class="col-sm-12">
+						<div class="classic-title">
+								<div class="stiker">
+										<h3 class="inner-stiker">Software</h3>
+								</div>
+								<h3 class="outer-stiker">Robust & scalable fMRI processing</h3>
+								<div class="incline-div"></div>
+						</div>
+				</div>
+
+
+
+				<!--- Open Science --->
+				<div class="col-sm-12">
+						<div class="classic-title">
+								<div class="stiker">
+										<h3 class="inner-stiker">Open Science</h3>
+								</div>
+								<h3 class="outer-stiker">Data Sharing, Communication, Collaboration</h3>
+								<div class="incline-div"></div>
+						</div>
+				</div>
+
+				<p>
+					<h4> Summary </h4>
+					At the <b><a href="http://unf-montreal.ca">Functional Neuroimaging Unit“(UNF)</a></b>, Montreal, CA, we work to better understand the central nervous system using state-of-the-art magnetic resonance imaging techniques, with many potential medical applications. We are developing new methods to improve the quality of structural and functional images, as well as data mining techniques to extract meaningful information from massive datasets. We are looking for a full-time developer to contribute to the integration of UNF with the <b><a href="https://mcin-cnim.ca/technology/cbrain/CBRAIN"> CBRAIN platform</a></b>, a Canadian neuroinformatics infrastructure. The successful candidate will assist research teams at UNF and across Québec to integrate the raw data they acquire with the research software available inside CBRAIN.
+				</p>
+
+
+			<!--- End of news --->
+			</div>
+		</section>
+
+		<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+				<p class="footer-text m-0">Copyright &copy; 2018 SIMEXP laboratory, All rights reserved   |   This site is adapted from a template made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/">Colorlib</a></p>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/vendor/jquery-2.2.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.nice-select.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
